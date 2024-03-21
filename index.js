@@ -5,6 +5,7 @@ document.querySelectorAll('.range_box input').forEach(item => {
         this.closest('.range_box').querySelector('.rangeValue').innerHTML = this.value;
     })
 
+    
 });
 
 const myBox = document.getElementById('box');
